@@ -4,8 +4,12 @@
 		"selected_items":
 		[
 			[
-				"movie",
-				"movieRepository\tproperty"
+				"After",
+				"AfterViewInit\talias"
+			],
+			[
+				"AfterView",
+				"AfterViewInit\talias"
 			],
 			[
 				"wrap",
@@ -39,42 +43,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "app/movies/movie-list/movie-list.component.css",
-			"settings":
-			{
-				"buffer_size": 451,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/shared/rating/rating.component.ts",
-			"settings":
-			{
-				"buffer_size": 263,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/shared/rating/rating.component.html",
-			"settings":
-			{
-				"buffer_size": 275,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/movies/movie-list/movie-list.component.html",
-			"settings":
-			{
-				"buffer_size": 1008,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -83,44 +51,48 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 357.0,
-		"last_filter": "",
+		"height": 67.0,
+		"last_filter": "convert to tab",
 		"selected_items":
 		[
+			[
+				"convert to tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"ngx",
+				"Set Syntax: Ngx HTML"
+			],
 			[
 				"install pac",
 				"Package Control: Install Package"
 			],
 			[
-				"reinde",
-				"Indentation: Reindent Lines"
+				"convert",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"package list",
+				"Package Control: List Packages"
+			],
+			[
+				"settings",
+				"Preferences: Settings"
+			],
+			[
+				"configur",
+				"Boxy Theme: Configuration"
 			],
 			[
 				"reind",
 				"Indentation: Reindent Lines"
 			],
 			[
-				"reinden",
-				"Indentation: Reindent Lines"
-			],
-			[
-				"indent",
-				"Indentation: Reindent Lines"
-			],
-			[
-				"convert tab",
-				"Indentation: Convert to Tabs"
-			],
-			[
-				"format",
-				"TypeScript: Format Block"
+				"disable pac",
+				"Package Control: Disable Package"
 			],
 			[
 				"conver tab",
-				"Indentation: Convert to Tabs"
-			],
-			[
-				"convert to tab",
 				"Indentation: Convert to Tabs"
 			],
 			[
@@ -129,6 +101,10 @@
 			],
 			[
 				"convert to tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"convert tab",
 				"Indentation: Convert to Tabs"
 			],
 			[
@@ -240,10 +216,6 @@
 				"SublimeLinter: Enable Debug Mode"
 			],
 			[
-				"package list",
-				"Package Control: List Packages"
-			],
-			[
 				"package",
 				"Package Control: Enable Package"
 			],
@@ -274,62 +246,64 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/Users/phrz/Repos/gui-hw-4",
-		"/Users/phrz/Repos/gui-hw-4/app",
-		"/Users/phrz/Repos/gui-hw-4/app/movies",
-		"/Users/phrz/Repos/gui-hw-4/app/movies/movie-editor",
-		"/Users/phrz/Repos/gui-hw-4/app/movies/movie-list",
-		"/Users/phrz/Repos/gui-hw-4/app/shared",
-		"/Users/phrz/Repos/gui-hw-4/app/shared/rating"
-	],
 	"file_history":
 	[
-		"/Users/phrz/Repos/gui-hw-4/app/shared/rating/rating.component.ts",
-		"/Users/phrz/Repos/gui-hw-4/app/shared/rating/rating.component.html",
-		"/Users/phrz/Repos/gui-hw-4/app/movies/movie-editor/movie-editor.component.html",
-		"/Users/phrz/Repos/gui-hw-4/app/shared/rating/rating.component.css",
-		"/Users/phrz/Repos/gui-hw-4/app/app.module.ts",
-		"/Users/phrz/Repos/gui-hw-4/app/movies/movies.module.ts",
-		"/Users/phrz/Repos/gui-hw-4/app/movies/movie-list/movie-list.component.ts",
-		"/Users/phrz/Repos/gui-hw-4/app/movies/movie-list/movie-list.component.css",
-		"/Users/phrz/Repos/gui-hw-4/app/movies/movie-list/movie-list.component.html",
-		"/Users/phrz/Repos/gui-hw-4/app/movies/movie-editor/movie-editor.component.ts",
-		"/Users/phrz/Repos/gui-hw-4/app/app.component.html",
-		"/Users/phrz/Repos/gui-hw-4/app/movies/api/movie-repository.service.ts",
-		"/Users/phrz/Repos/gui-hw-4/app/movies/api/movie.ts",
-		"/Users/phrz/Repos/gui-hw-4/gui-hw-4.sublime-project",
-		"/Users/phrz/Repos/gui-hw-4/app/shared/index.ts",
-		"/Users/phrz/Repos/gui-hw-4/app/shared/shared.module.ts",
-		"/Users/phrz/Repos/gui-hw-4/app/movies/index.ts",
-		"/Users/phrz/Repos/uomi/src/public/index.html",
+		"/Users/phrz/Repos/uomi/config/dev/caddy/Caddyfile",
+		"/Users/phrz/Repos/uomi/src/public/app/dashboard/dashboard.component.ts",
+		"/Users/phrz/Repos/uomi/src/public/app/services/loan.ts",
+		"/Users/phrz/Repos/uomi/src/public/scss/_dashboard.scss",
+		"/Users/phrz/Repos/uomi/src/public/app/dashboard/dashboard.component.html",
+		"/Users/phrz/Repos/uomi/src/public/scss/_table.scss",
+		"/Users/phrz/Repos/uomi/src/public/scss/_forms.scss",
+		"/Users/phrz/Repos/uomi/src/public/app/shared/currency-view.component.ts",
+		"/Users/phrz/Repos/uomi/src/public/tsconfig.json",
+		"/Users/phrz/Repos/uomi/src/public/app/services/loans-service.ts",
+		"/Users/phrz/Repos/uomi/src/public/app/shared/loan.ts",
+		"/Users/phrz/Repos/uomi/src/public/app/shared/shared.module.ts",
+		"/Users/phrz/Repos/uomi/src/public/app/registration/registration.component.ts",
+		"/Users/phrz/Repos/uomi/src/public/app/services/authentication-service.ts",
+		"/Users/phrz/Repos/uomi/src/lib/controller/LoanController.php",
+		"/Users/phrz/Repos/uomi/src/public/app/shared/serializable.ts",
+		"/Users/phrz/Repos/uomi/data/categories.sql",
+		"/Users/phrz/Repos/uomi/src/lib/controller/SessionController.php",
+		"/Users/phrz/Repos/uomi/src/lib/factory/SessionFactory.php",
+		"/Users/phrz/Repos/uomi/docker-compose.yml",
+		"/Users/phrz/Repos/uomi/src/lib/controller/UserController.php",
+		"/Users/phrz/Repos/uomi/src/public/app/login/login.component.ts",
+		"/Users/phrz/Repos/uomi/src/lib/Form.php",
+		"/Users/phrz/Repos/uomi/src/lib/model/Session.php",
+		"/Users/phrz/Repos/uomi/data/dump.sql",
+		"/Users/phrz/Repos/uomi/src/public/app/services/users-service.ts",
+		"/Users/phrz/Repos/uomi/src/lib/controller/PaymentController.php",
+		"/Users/phrz/Repos/uomi/src/lib/factory/UserFactory.php",
+		"/Users/phrz/Repos/uomi/src/slim/routes.php",
+		"/Users/phrz/Repos/uomi/src/public/main.ts",
+		"/Users/phrz/Repos/uomi/src/lib/model/User.php",
+		"/Users/phrz/Repos/uomi/src/public/scss/_general.scss",
+		"/Users/phrz/Repos/uomi/src/public/app/app.module.ts",
+		"/Users/phrz/Repos/uomi/src/public/app/shared/focus-on-load.directive.ts",
 		"/Users/phrz/Repos/uomi/src/public/scss/_layout.scss",
+		"/Users/phrz/Repos/uomi/src/public/scss/_features.scss",
+		"/Users/phrz/Repos/uomi/src/public/app/login/login.component.html",
 		"/Users/phrz/Repos/uomi/src/public/app/registration/registration.component.html",
 		"/Users/phrz/Repos/uomi/src/public/scss/style.scss",
+		"/Users/phrz/Repos/uomi/src/public/scss/_reset.scss",
+		"/Users/phrz/Repos/uomi/src/public/scss/_columns.scss",
+		"/Users/phrz/Repos/uomi/src/public/scss/_globals.scss",
+		"/Users/phrz/Repos/uomi/src/public/scss/_mixins.scss",
+		"/Users/phrz/Repos/uomi/src/public/scss/_breakpoints.scss",
 		"/Users/phrz/Repos/uomi/src/public/scss/_login.scss",
-		"/Users/phrz/Repos/uomi/src/public/scss/_features.scss",
-		"/Users/phrz/Repos/uomi/src/public/scss/_forms.scss",
-		"/Users/phrz/Repos/uomi/src/public/scss/_header.scss",
+		"/Users/phrz/Repos/uomi/src/public/index.html",
+		"/Users/phrz/Repos/uomi/src/public/app/focus-on-load.directive.ts",
 		"/Users/phrz/Repos/uomi/src/public/app/magic-form-item.directive.ts",
-		"/Users/phrz/Repos/uomi/src/public/app/app.module.ts",
+		"/Users/phrz/Repos/uomi/src/public/scss/_header.scss",
 		"/Users/phrz/Repos/uomi/src/public/magic-form-item.js",
 		"/Users/phrz/Repos/uomi/src/public/app/main.ts",
-		"/Users/phrz/Repos/uomi/src/public/scss/_globals.scss",
-		"/Users/phrz/Repos/uomi/src/public/scss/_breakpoints.scss",
-		"/Users/phrz/Repos/uomi/src/public/scss/_general.scss",
-		"/Users/phrz/Repos/uomi/src/public/scss/_mixins.scss",
-		"/Users/phrz/Repos/uomi/src/public/scss/_reset.scss",
-		"/Users/phrz/Repos/uomi/src/public/main.ts",
 		"/Users/phrz/Repos/uomi/build/public/css/style.css",
 		"/Users/phrz/Repos/uomi/src/lib/autoload.php",
 		"/Users/phrz/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
 		"/Users/phrz/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
-		"/Users/phrz/Repos/uomi/src/lib/factory/UserFactory.php",
 		"/Users/phrz/Repos/uomi/src/slim/errors.php",
-		"/Users/phrz/Repos/uomi/src/lib/controller/UserController.php",
-		"/Users/phrz/Repos/uomi/src/lib/model/User.php",
-		"/Users/phrz/Repos/uomi/data/dump.sql",
 		"/Users/phrz/Library/Application Support/Sublime Text 3/Packages/User/Glue.sublime-settings",
 		"/Users/phrz/Repos/uomi/terminal.glue",
 		"/Users/phrz/Library/Application Support/Sublime Text 3/Packages/AutoSoftWrap/AutoSoftWrap.sublime-settings",
@@ -360,13 +334,14 @@
 	],
 	"find":
 	{
-		"height": 48.0
+		"height": 22.0
 	},
 	"find_in_files":
 	{
 		"height": 93.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -374,6 +349,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"console.log",
+			"getuserloan",
+			"userid",
+			"resource",
+			"session_key",
+			"echo",
+			"catch(\\Runtime",
+			"card",
+			"table",
+			"@extend",
+			"page-center",
 			"rgba",
 			"z-index",
 			"focus",
@@ -409,493 +395,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "app/movies/movie-list/movie-list.component.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 451,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								34,
-								34
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										33,
-										34
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"brackethighlighter.default"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										16,
-										17
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Boxy Ocean.tmTheme",
-							"git_gutter_enabled": true,
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false,
-							"typescript_plugin_format_options":
-							{
-								"convertTabsToSpaces": false,
-								"indentSize": 4,
-								"tabSize": 4
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/shared/rating/rating.component.ts",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 263,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								261,
-								261
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										262,
-										263
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"brackethighlighter.default"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										230,
-										231
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"git_gutter_enabled": true,
-							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"typescript_plugin_format_options":
-							{
-								"convertTabsToSpaces": false,
-								"indentSize": 4,
-								"tabSize": 4
-							},
-							"use_tab_stops": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/shared/rating/rating.component.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 275,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								267,
-								267
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Boxy Ocean.tmTheme",
-							"git_gutter_enabled": true,
-							"syntax": "Packages/Angular2 HTML Syntax/Angular2HTML.sublime-syntax",
-							"typescript_plugin_format_options":
-							{
-								"convertTabsToSpaces": false,
-								"indentSize": 4,
-								"tabSize": 4
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/movies/movie-list/movie-list.component.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1008,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								921,
-								921
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										926,
-										927
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/square_bracket.png",
-										"brackethighlighter.default"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										920,
-										921
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Boxy Ocean.tmTheme",
-							"git_gutter_enabled": true,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -943,7 +444,7 @@
 		"height": 110.0
 	},
 	"pinned_build_system": "",
-	"project": "gui-hw-4.sublime-project",
+	"project": "gui-hw-6.sublime-project",
 	"replace":
 	{
 		"height": 40.0
