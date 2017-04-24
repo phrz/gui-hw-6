@@ -1,0 +1,28 @@
+<h1>Movie Database</h1>
+<nav>
+	<button class="btn btn-primary pull-right" routerLink="/add">Add movie</button>
+	<div class="clearfix"></div>
+</nav>
+<section class="movie-list-section">
+	<div class="well" *ngIf="movies.length == 0">
+		There are no movies in the database.
+	</div>
+	<div class="media" *ngFor="let movie of movies">
+		<span class="media-left">
+			<img [src]="(movie.imagePath||'images/blank.jpg')" alt="{{ movie.title }}" />
+		</span>
+		<div class="media-body">
+			<h4 class="media-heading">
+				{{ movie.title }} ({{ movie.year }}) 
+				<button class="btn btn-link movie-edit-button" [routerLink]="['/edit', movie.id]">
+					<i class="glyphicon glyphicon-edit"></i>
+				</button>
+				<button class="btn btn-link movie-delete-button" (click)="didClickDelete( movie )">
+					<i class="glyphicon glyphicon-trash"></i>
+				</button>
+			</h4>
+			<input type="text" [ngModel]="movie.rating" readonly>
+			<rating [model]="movie.rating"></rating>
+		</div>
+	</div>
+</section><!-- .movie-list-section -->
