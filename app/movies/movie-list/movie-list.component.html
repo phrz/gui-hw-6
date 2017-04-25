@@ -4,10 +4,15 @@
 	<div class="clearfix"></div>
 </nav>
 <section class="movie-list-section">
-	<div class="well" *ngIf="movies.length == 0">
+
+	<div class="well" *ngIf="!isLoaded">
+		Loading
+	</div>
+	<div class="well" *ngIf="isLoaded && movies.length === 0">
 		There are no movies in the database.
 	</div>
-	<div class="media" *ngFor="let movie of movies">
+
+	<div class="movie media" *ngFor="let movie of movies">
 		<span class="media-left">
 			<img [src]="(movie.imagePath||'images/blank.jpg')" alt="{{ movie.title }}" />
 		</span>
@@ -23,5 +28,11 @@
 			</h4>
 			<rating [model]="movie.rating"></rating>
 		</div>
+	</div><!-- .movie -->
+
+	<div class="alert alert-info working-message" *ngIf="isWorking">
+		<i class="glyphicon glyphicon-refresh" aria-hidden="true"></i>
+		Working
 	</div>
+
 </section><!-- .movie-list-section -->

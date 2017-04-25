@@ -45,7 +45,7 @@ export class MovieEditorComponent implements OnInit, OnDestroy {
 	}
 
 	saveChanges() {
-		console.log('saveChanges');
+		console.log('MovieEditorComponent.saveChanges');
 		if(this.isNew) {
 			this.movieRepository.add(this.movie);
 		} else {

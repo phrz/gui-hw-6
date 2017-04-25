@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpModule } from '@angular/http';
 import { FormsModule } from '@angular/forms';
 import { SharedModule } from '../shared/shared.module';
 import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
@@ -29,8 +30,9 @@ var routes = [
 @NgModule({
   imports:      [ 
     BrowserModule,
+    HttpModule,
     RouterModule.forRoot(routes),
-    InMemoryWebApiModule.forRoot(MockAPIService),
+    InMemoryWebApiModule.forRoot(MockAPIService, { delay: 1000 }),
     FormsModule,
     SharedModule
   ],

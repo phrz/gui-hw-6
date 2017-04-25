@@ -1,11 +1,7 @@
 {
   "name": "Homework",
   "scripts": {
-    "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
-    "lite": "lite-server",
-    "postinstall": "typings install",
-    "tsc": "tsc",
-    "tsc:w": "tsc -w"
+    "start": "tsc && concurrently \"tsc -w\" \"lite-server &>/dev/null\" "
   },
   "dependencies": {
     "@angular/common": "~4.0.3",
@@ -19,7 +15,7 @@
     "@types/core-js": "^0.9.41",
     "@types/jasmine": "^2.5.47",
     "@types/node": "^7.0.13",
-    "angular-in-memory-web-api": "0.3.1",
+    "angular-in-memory-web-api": "^0.3.1",
     "bootstrap": "^3.3.7",
     "core-js": "^2.4.1",
     "jquery": "3.2.1",
@@ -32,8 +28,6 @@
   },
   "devDependencies": {
     "concurrently": "^3.4.0",
-    "lite-server": "^2.3.0",
-    "typescript": "^2.2.0",
-    "typings": "^2.1.1"
+    "lite-server": "^2.3.0"
   }
 }
